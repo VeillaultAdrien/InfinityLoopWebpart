@@ -1,0 +1,59 @@
+export interface IGraphProps {
+  description: string;
+  //element 1
+  textField1: string;
+  color1: string;
+  windowTitle1: string;
+  windowDescription1: string;
+  windowLink1: string;
+  colorText1: string;
+  //element 2
+  textField2: string;
+  color2: string;
+  windowTitle2: string;
+  windowDescription2: string;
+  windowLink2: string;
+  colorText2: string;
+  //element 3
+  textField3: string;
+  color3: string;
+  windowTitle3: string;
+  windowDescription3: string;
+  windowLink3: string;
+  colorText3: string;
+  //element4
+  textField4: string;
+  color4: string;
+  windowTitle4: string;
+  windowDescription4: string;
+  windowLink4: string;
+  colorText4: string;
+  //element5
+  textField5: string;
+  color5: string;
+  windowTitle5: string;
+  windowDescription5: string;
+  windowLink5: string;
+  colorText5: string;
+  //element 6
+  textField6: string;
+  color6: string;
+  windowTitle6: string;
+  windowDescription6: string;
+  windowLink6: string;
+  colorText6: string;
+  //element 7
+  textField7: string;
+  color7: string;
+  windowTitle7: string;
+  windowDescription7: string;
+  windowLink7: string;
+  colorText7: string;
+  //element8
+  textField8: string;
+  color8: string;
+  windowTitle8: string;
+  windowDescription8: string;
+  windowLink8: string;
+  colorText8: string;
+}

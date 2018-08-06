@@ -1,0 +1,13 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "graph-webpart-client-side-solution",
+    "id": "db92fb86-1f2e-4ddd-954d-0f0507c5ae29",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true
+  },
+  "paths": {
+    "zippedPackage": "solution/graph-webpart.sppkg"
+  }
+}

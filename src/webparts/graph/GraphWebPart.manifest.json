@@ -1,0 +1,81 @@
+{
+  "$schema": "https://dev.office.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "75b997ae-6135-4534-ae68-1d50205ed92a",
+  "alias": "InfinityLoopWebPart",
+  "componentType": "WebPart",
+
+  // The "*" signifies that the version should be taken from the package.json
+  "version": "*",
+  "manifestVersion": 2,
+
+  // If true, the component can only be installed on sites where Custom Script is allowed.
+  // Components that allow authors to embed arbitrary script code should set this to true.
+  // https://support.office.com/en-us/article/Turn-scripting-capabilities-on-or-off-1f2c515f-5d7e-448a-9fd7-835da935584f
+  "requiresCustomScript": false,
+
+  "preconfiguredEntries": [{
+    "groupId": "5c03119e-3074-46fd-976b-c60198311f70", // Other
+    "group": { "default": "Other" },
+    "title": { "default": "Infinity Loop" },
+    "description": { "default": "An infinity loop graphic" },
+    "officeFabricIconFontName": "Page",
+    "properties": {
+      /* Element 1 */
+      "textField1" : "Text 1",
+      "color1" : "#27509B",
+      "colorText1" : "#FFFFFF",
+      "windowTitle1" : "Titre 1",
+      "windowDescription1" : "Description 1",
+      "windowLink1" : "#",
+      /* Element 2 */
+      "textField2" : "Text 2",
+      "color2" : "#27509B",
+      "colorText2" : "#FFFFFF",
+      "windowTitle2" : "Titre 2",
+      "windowDescription2" : "Description 2",
+      "windowLink2" : "#",
+      /* Element 3 */
+      "textField3" : "Text 3",
+      "color3": "#27509B",
+      "colorText3" : "#FFFFFF",
+      "windowTitle3" : "Titre 3",
+      "windowDescription3" : "Description 3",
+      "windowLink3" : "#",
+      /* Element 4 */
+      "textField4" : "Text 4",
+      "color4" : "#27509B",
+      "colorText4" : "#FFFFFF",
+      "windowTitle4" : "Titre 4",
+      "windowDescription4" : "Description 4",
+      "windowLink4" : "#",
+      /* Element 5 */
+      "textField5" : "Text 5",
+      "color5" : "#27509B",
+      "colorText5" : "#FFFFFF",
+      "windowTitle5" : "Titre 5",
+      "windowDescription5" : "Description 5",
+      "windowLink5" : "#",
+      /* Element 6 */
+      "textField6" : "Text 6",
+      "color6": "#27509B",
+      "colorText6" : "#FFFFFF",
+      "windowTitle6" : "Titre 6",
+      "windowDescription6" : "Description 6",
+      "windowLink6" : "#",
+      /* Element 7 */
+      "textField7" : "Text 7",
+      "color7" : "#27509B",
+      "colorText7" : "#FFFFFF",
+      "windowTitle7" : "Titre 7",
+      "windowDescription7" : "Description 7",
+      "windowLink7" : "#",
+      /* Element 8 */
+      "textField8" : "Text 8",
+      "color8" : "#27509B",
+      "colorText8" : "#FFFFFF",
+      "windowTitle8" : "Titre 8",
+      "windowDescription8" : "Description 8",
+      "windowLink8" : "#",
+    }
+  }]
+}

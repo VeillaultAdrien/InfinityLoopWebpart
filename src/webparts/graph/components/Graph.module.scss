@@ -1,0 +1,78 @@
+@import '~@microsoft/sp-office-ui-fabric-core/dist/sass/SPFabricCore.scss';
+
+Text {
+  pointer-events: none;
+}
+
+.graph {
+  font-family: "Segoe UI WestEuropean","Segoe UI",-apple-system,BlinkMacSystemFont,Roboto,"Helvetica Neue",sans-serif;
+  -webkit-font-smoothing: antialiased;
+
+
+  // .scaleSVG {
+  //   height: 100%;
+  //   display:block;
+  //   width: 100%;
+  //   position: absolute;
+  //   top:0;
+  //   left:0;
+  // }
+
+  svg {
+    z-index: 0;
+
+    path {
+      cursor: pointer;
+    }
+  }
+
+  .box {
+    border-color: black;
+    border-style: solid;
+    border-width: thin;
+    background-color: $ms-color-white;
+    z-index: 10;
+    padding: 0.2em;
+    box-shadow: 5px 5px 5px #888888;
+    width: 50%;
+    position: absolute;
+    top: 0;
+    left: 0;
+
+    .close {
+      font-size: 2em;
+      margin: 0.3em;
+      cursor: pointer;
+      color: black;
+      margin-left: 1.5em;
+      position: relative;
+    }
+
+    .close:hover {
+      color: #FCE500;
+    }
+
+    .bottomContent {
+      border-top-style: solid;
+      border-color: black;
+    }
+  }
+
+  .row {
+    @include ms-Grid-row;
+    height: 1.5em;
+    width: 90%;
+
+    h2 {
+      font-size: 1.5em;
+      height: inherit;
+      margin: 0;
+    }
+  }
+
+  h1 {
+    text-align: center;
+    width: 100%;
+    font-size: 4em;
+  }
+}
