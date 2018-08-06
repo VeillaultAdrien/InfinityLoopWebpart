@@ -30,5 +30,5 @@ gulp serve - TODO
 gulp bundle - TODO
 gulp package-solution - TODO
 
-### Licence
-This project is under the MIT Licence.
+### License
+This project is under the MIT License.

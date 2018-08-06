@@ -20,6 +20,8 @@
     "@types/webpack-env": ">=1.12.1 <1.14.0",
     "@vx/responsive": "0.0.165",
     "@vx/text": "0.0.165",
+    "compose-dataset-shim": "^1.0.0",
+    "core-js": "^3.0.0-beta.3",
     "office-ui-fabric-react": "^5.81.1",
     "react": "15.6.2",
     "react-dom": "15.6.2",
