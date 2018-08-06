@@ -1,11 +1,11 @@
 /* tslint:disable */
 require('./Graph.module.css');
 const styles = {
-  graph: 'graph_3d4eeb2e',
-  box: 'box_3d4eeb2e',
-  close: 'close_3d4eeb2e',
-  bottomContent: 'bottomContent_3d4eeb2e',
-  row: 'row_3d4eeb2e',
+  graph: 'graph_67533382',
+  box: 'box_67533382',
+  close: 'close_67533382',
+  bottomContent: 'bottomContent_67533382',
+  row: 'row_67533382',
 };
 
 export default styles;

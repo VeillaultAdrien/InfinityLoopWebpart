@@ -140,28 +140,28 @@ export default class Graph extends React.Component<IGraphProps,
               </g>
             </g>
 
-            <Text lineHeight="1em" verticalAnchor="middle" x="205" y="60" id="text2997" width="200" textAnchor="middle" style={{ fontSize: 40, fontStyle: 'normal', fontWeight: 'normal', lineHeight: '125%', letterSpacing: 0, wordSpacing: 0, fill: escape(this.props.colorText1), fillOpacity: 1, stroke: 'none', fontFamily: 'Sans' }}>
+            <Text lineHeight="1em" onClick={this._onButtonOpen1} verticalAnchor="middle" x="205" y="60" id="text2997" width="200" textAnchor="middle" style={{ fontSize: 40, fontStyle: 'normal', fontWeight: 'normal', lineHeight: '125%', letterSpacing: 0, wordSpacing: 0, fill: escape(this.props.colorText1), fillOpacity: 1, stroke: 'none', fontFamily: 'Sans' }}>
               {escape(this.props.textField1)}
             </Text>
-            <Text angle="45" lineHeight="1em" verticalAnchor="middle" textAnchor="middle" x="435" y="185" id="text2997-1-4-9-8" width="250" xmlSpace="preserve" style={{ fontSize: 40, fontStyle: 'normal', fontWeight: 'normal', lineHeight: '125%', letterSpacing: 0, wordSpacing: 0, fill: escape(this.props.colorText2), fillOpacity: 1, stroke: 'none', fontFamily: 'Sans' }}>
+            <Text angle="45" lineHeight="1em" onClick={this._onButtonOpen2} verticalAnchor="middle" textAnchor="middle" x="435" y="185" id="text2997-1-4-9-8" width="250" xmlSpace="preserve" style={{ fontSize: 40, fontStyle: 'normal', fontWeight: 'normal', lineHeight: '125%', letterSpacing: 0, wordSpacing: 0, fill: escape(this.props.colorText2), fillOpacity: 1, stroke: 'none', fontFamily: 'Sans' }}>
               {escape(this.props.textField2)}
             </Text>
-            <Text lineHeight="1em" verticalAnchor="middle" textAnchor="middle" x="666" y="375" id="text2997-1-4-9-8-2" width="200" xmlSpace="preserve" style={{ fontSize: 40, fontStyle: 'normal', fontWeight: 'normal', lineHeight: '125%', letterSpacing: 0, wordSpacing: 0, fill: escape(this.props.colorText3), fillOpacity: 1, stroke: 'none', fontFamily: 'Sans' }}>
+            <Text lineHeight="1em" onClick={this._onButtonOpen3} verticalAnchor="middle" textAnchor="middle" x="666" y="375" id="text2997-1-4-9-8-2" width="200" xmlSpace="preserve" style={{ fontSize: 40, fontStyle: 'normal', fontWeight: 'normal', lineHeight: '125%', letterSpacing: 0, wordSpacing: 0, fill: escape(this.props.colorText3), fillOpacity: 1, stroke: 'none', fontFamily: 'Sans' }}>
               {escape(this.props.textField3)}
             </Text>
-            <Text lineHeight="1em" verticalAnchor="middle" textAnchor="middle" x="850" y="220" id="text2997-1-4-9-8-2-5" width="120" xmlSpace="preserve" style={{ fontSize: 40, fontStyle: 'normal', fontWeight: 'normal', lineHeight: '125%', letterSpacing: 0, wordSpacing: 0, fill: escape(this.props.colorText4), fillOpacity: 1, stroke: 'none', fontFamily: 'Sans' }}>
+            <Text lineHeight="1em" onClick={this._onButtonOpen4} verticalAnchor="middle" textAnchor="middle" x="850" y="220" id="text2997-1-4-9-8-2-5" width="120" xmlSpace="preserve" style={{ fontSize: 40, fontStyle: 'normal', fontWeight: 'normal', lineHeight: '125%', letterSpacing: 0, wordSpacing: 0, fill: escape(this.props.colorText4), fillOpacity: 1, stroke: 'none', fontFamily: 'Sans' }}>
               {escape(this.props.textField4)}
             </Text>
-            <Text lineHeight="1em" verticalAnchor="middle" textAnchor="middle" x="700" y="60" id="text2997-1-4-9-8-2-5-1" width="200" xmlSpace="preserve" style={{ fontSize: 40, fontStyle: 'normal', fontWeight: 'normal', lineHeight: '125%', letterSpacing: 0, wordSpacing: 0, fill: escape(this.props.colorText5), fillOpacity: 1, stroke: 'none', fontFamily: 'Sans' }}>
+            <Text lineHeight="1em" onClick={this._onButtonOpen5} verticalAnchor="middle" textAnchor="middle" x="700" y="60" id="text2997-1-4-9-8-2-5-1" width="200" xmlSpace="preserve" style={{ fontSize: 40, fontStyle: 'normal', fontWeight: 'normal', lineHeight: '125%', letterSpacing: 0, wordSpacing: 0, fill: escape(this.props.colorText5), fillOpacity: 1, stroke: 'none', fontFamily: 'Sans' }}>
               {escape(this.props.textField5)}
             </Text>
-            <Text angle='-45' lineHeight="1em" verticalAnchor="middle" textAnchor="middle" x="530" y="145" id="text2997-1-4-9" width="100" xmlSpace="preserve" style={{ fontSize: 40, fontStyle: 'normal', fontWeight: 'normal', lineHeight: '125%', letterSpacing: 0, wordSpacing: 0, fill: escape(this.props.colorText6), fillOpacity: 1, stroke: 'none', fontFamily: 'Sans' }}>
+            <Text angle='-45' lineHeight="1em" onClick={this._onButtonOpen6} verticalAnchor="middle" textAnchor="middle" x="530" y="145" id="text2997-1-4-9" width="100" xmlSpace="preserve" style={{ fontSize: 40, fontStyle: 'normal', fontWeight: 'normal', lineHeight: '125%', letterSpacing: 0, wordSpacing: 0, fill: escape(this.props.colorText6), fillOpacity: 1, stroke: 'none', fontFamily: 'Sans' }}>
               {escape(this.props.textField6)}
             </Text>
-            <Text lineHeight="1em" verticalAnchor="middle" textAnchor="middle" x="235" y="370" id="text2997-1-4" width="200" xmlSpace="preserve" style={{ fontSize: 40, fontStyle: 'normal', fontWeight: 'normal', lineHeight: '125%', letterSpacing: 0, wordSpacing: 0, fill: escape(this.props.colorText7), fillOpacity: 1, stroke: 'none', fontFamily: 'Sans' }}>
+            <Text lineHeight="1em" onClick={this._onButtonOpen7} verticalAnchor="middle" textAnchor="middle" x="235" y="370" id="text2997-1-4" width="200" xmlSpace="preserve" style={{ fontSize: 40, fontStyle: 'normal', fontWeight: 'normal', lineHeight: '125%', letterSpacing: 0, wordSpacing: 0, fill: escape(this.props.colorText7), fillOpacity: 1, stroke: 'none', fontFamily: 'Sans' }}>
               {escape(this.props.textField7)}
             </Text>
-            <Text lineHeight="1em" verticalAnchor="middle" textAnchor="middle" x="65" y="230" id="text2997-1" width="120" xmlSpace="preserve" style={{ fontSize: 40, fontStyle: 'normal', fontWeight: 'normal', lineHeight: '125%', letterSpacing: 0, wordSpacing: 0, fill: escape(this.props.colorText8), fillOpacity: 1, stroke: 'none', fontFamily: 'Sans' }}>
+            <Text lineHeight="1em" onClick={this._onButtonOpen8} verticalAnchor="middle" textAnchor="middle" x="65" y="230" id="text2997-1" width="120" xmlSpace="preserve" style={{ fontSize: 40, fontStyle: 'normal', fontWeight: 'normal', lineHeight: '125%', letterSpacing: 0, wordSpacing: 0, fill: escape(this.props.colorText8), fillOpacity: 1, stroke: 'none', fontFamily: 'Sans' }}>
               {escape(this.props.textField8)}
             </Text>
           </svg>

@@ -24,6 +24,12 @@ Text {
     path {
       cursor: pointer;
     }
+    path:hover{
+      background-color: white;
+    }
+    tspan {
+      cursor: pointer!important;
+    }
   }
 
   .box {
