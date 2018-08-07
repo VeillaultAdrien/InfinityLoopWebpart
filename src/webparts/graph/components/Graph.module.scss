@@ -8,16 +8,6 @@ Text {
   font-family: "Segoe UI WestEuropean","Segoe UI",-apple-system,BlinkMacSystemFont,Roboto,"Helvetica Neue",sans-serif;
   -webkit-font-smoothing: antialiased;
 
-
-  // .scaleSVG {
-  //   height: 100%;
-  //   display:block;
-  //   width: 100%;
-  //   position: absolute;
-  //   top:0;
-  //   left:0;
-  // }
-
   svg {
     z-index: 0;
 
@@ -25,9 +15,6 @@ Text {
       pointer-events: all;
       cursor: pointer;
     }
-    // path:hover{
-    //   fill: #FCE500!important;
-    // }
     tspan {
       pointer-events: all;
       cursor: pointer;
@@ -45,7 +32,6 @@ Text {
     width: 50%;
     position: absolute;
     top: 0;
-    left: 0;
 
     .close {
       font-size: 2em;
