@@ -13,7 +13,6 @@ For more informations about the SharePoint Frameorck see the official documentat
 ```bash
 git clone https://github.com/VeillaultAdrien/InfinityLoopWebpart.git
 npm i
-gulp serve
 ```
 
 This package produces the following:
@@ -24,11 +23,12 @@ This package produces the following:
 
 ### Build options
 
-gulp clean - TODO
-gulp test - TODO
-gulp serve - TODO
-gulp bundle - TODO
-gulp package-solution - TODO
+```gulp clean
+gulp test
+gulp serve
+gulp bundle
+gulp package-solution
+```
 
 ### License
 This project is under the MIT License.
