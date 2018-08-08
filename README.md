@@ -6,7 +6,7 @@ This is project is made with the SharePoint Framerock, ReactJs and sp-client-cus
 For more informations about the SharePoint Frameorck see the official documentation : https://docs.microsoft.com/en-us/sharepoint/dev/spfx/sharepoint-framework-overview
 
 ### Preview :
-![Image](./InfinityLoopPreview.png?raw=true)
+![Image](./InfinityLoopPreview.gif?raw=true)
 
 ### Building the code
 
