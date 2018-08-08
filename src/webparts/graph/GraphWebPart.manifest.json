@@ -20,7 +20,7 @@
     "description": { "default": "An infinity loop graphic" },
     "officeFabricIconFontName": "Page",
     "properties": {
-      "description" : "Titre",
+      "description" : "Title",
       /* Element 1 */
       "textField1" : "Text 1",
       "color1" : "#5751FF",

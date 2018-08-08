@@ -22,6 +22,7 @@
     "@vx/text": "0.0.165",
     "compose-dataset-shim": "^1.0.0",
     "core-js": "^3.0.0-beta.3",
+    "d3-textwrap": "^2.0.2",
     "office-ui-fabric-react": "^5.81.1",
     "react": "15.6.2",
     "react-dom": "15.6.2",

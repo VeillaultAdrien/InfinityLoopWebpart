@@ -1,4 +1,3 @@
-// import 'core-js';
 import * as React from 'react';
 import * as ReactDOM from 'react-dom';
 import { Fabric } from 'office-ui-fabric-react/lib/Fabric';
@@ -9,15 +8,12 @@ import MediaQuery from 'react-responsive';
 import { Text } from '@vx/text';
 import { ScaleSVG } from '@vx/responsive';
 import 'compose-dataset-shim';
-
-
-
-
 import {
   Image,
   IImageProps,
   ImageFit
 } from 'office-ui-fabric-react/lib/Image';
+
 
 
 export default class Graph extends React.Component<IGraphProps,
@@ -28,14 +24,9 @@ export default class Graph extends React.Component<IGraphProps,
     this.state = {
       showComponent: false,
       clickElement: null,
-
     };
-
   }
 
-
-
-  // public _onButtonOpen = ev => this.setState({ showComponent: true, windowTitle: ev.dataset.windowTitle, windowDescription: ev.target.dataset.windowDescription, windowLink: ev.target.dataset.windowLink });
 
   public _onButtonOpen1 = ev => {
     let elmnt = document.getElementById('path1');
@@ -154,6 +145,7 @@ this.setState({ showComponent: true, clickElement: elmnt.getAttribute('data-elem
       imageFit: ImageFit.contain,
     };
 
+
     function Annotation() {
       if (that.state.clickElement == "1") {
         return (<div className={styles.box} style={{ left: 0}}>
@@ -255,9 +247,6 @@ this.setState({ showComponent: true, clickElement: elmnt.getAttribute('data-elem
 
 
       }
-
-
-
 
     return (
       <div className={styles.graph}>
