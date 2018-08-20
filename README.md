@@ -12,6 +12,7 @@ For more informations about the SharePoint Frameorck see the official documentat
 
 ```bash
 git clone https://github.com/VeillaultAdrien/InfinityLoopWebpart.git
+npm i -g gulp
 npm i
 ```
 
